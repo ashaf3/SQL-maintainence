@@ -2,13 +2,6 @@
 
 Database Migration Implementation Plan with Rollback Strategy
 
-Table of Contents
-1. Introduction	1
-2. Backup Existing Databases	1
-3. Database Migration	2
-4. Rollback Strategy	4
-5. Conclusion	5
-
 
 1. Introduction
 This document outlines a plan for migrating databases in a SQL Server environment. The plan includes a rollback strategy to restore the original state in case of failure. The migration process involves detaching the databases, moving the data files, and then reattaching the databases. The rollback strategy involves restoring the databases from backup files.
